@@ -8,13 +8,13 @@ if choice == 1:
     time = int(input('Enter number of seconds: '))
     timer(time)
     n = ToastNotifier()
-    n.show_toast("Notification", "Time's up", duration=5, icon_path ="https://media.geeksforgeeks.org/wp-content/uploads/geeks.ico")
+    n.show_toast("Notification", "Time's up", duration=5)
 
 elif choice == 2:
     time = int(input('Enter number of seconds: '))
     cdt(time)
     n = ToastNotifier()
-    n.show_toast("Notification", "Time's up", duration=5, icon_path ="https://media.geeksforgeeks.org/wp-content/uploads/geeks.ico")
+    n.show_toast("Notification", "Time's up", duration=5)
 
 else:
     print("Invalid input")
